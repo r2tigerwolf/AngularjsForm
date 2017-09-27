@@ -1,0 +1,356 @@
+body {
+    background: #f2f2f2;
+    overflow-x: hidden;
+}
+#main {
+    margin: 0 0 0 0;
+    padding: 0;
+}
+.nav-group {
+    background: #fff;
+}
+input, select, button {
+    border-radius: 0 !important;
+}
+.form-group {
+    background: #f2f2f2;
+}
+.sel, .sel a {
+    color:red
+}
+.lbl-add, .lbl-listing  {
+    position: relative;
+    float: none;
+    padding: 0;
+    display: inline-block;
+    width: auto;
+    letter-spacing: 1px;
+}
+.lbl-add a:link, .lbl-listing a:link {
+    text-decoration: none;
+}
+.name {
+    margin-right: 15px;
+}
+.province_id {
+    margin-right: 38px;
+}
+.telephone {
+    margin-right: 37px;
+}
+.postal_code {
+    margin-right: 16px;
+}
+.nav-divider {
+    position: relative;
+    display: inline-block;
+    width: 1px;
+    border-left: 1px solid #d7d7d7;
+    padding: 0;
+    margin:0 13px 0 13px;
+    float: none;
+    height: 21px;
+}
+.firstname, .lastname {
+    float: left;
+    width: 200px;
+}
+.lastname {
+    margin-left: 20px;
+}
+.delete {
+    position: relative;
+    display: inline;
+    width: auto !important;
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.guestbook-info {
+    padding: 10px;
+    font-family: Arial, Helvetica;
+    color: #000;
+
+}
+.guestbook-info a {
+    color: #000;
+    text-decoration: none;
+}
+.guestbook-info:nth-child(odd){
+    background:#eee;
+}
+.guestbook-info:nth-child(even){
+    background:#ccc;
+}
+.delete form {
+    float: right;
+}
+div[ng-app] { margin: 50px; }
+.nav-col {
+    position: relative;
+    display: block;
+    width: 709px;
+    float: none;
+    margin: 21px auto 21px auto;
+
+    text-align: center;
+}
+.nav-label {
+    position: relative;
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    float: none;
+    padding: 0;
+}
+.confirm-header {
+    background: #2797de;
+    color: #fff;
+    position: relative;
+    display: block;
+    margin: 44px auto 0 auto;
+    width: 709px;
+    float: none;
+}
+.confirm-header .confirm-center {
+    position: relative;
+    display: table-cell;
+    height: 45px;
+    width: 709px;
+    vertical-align: middle;
+}
+.confirm-header .confirm-center .confirm-text {
+    position: relative;
+    display: table;
+    margin: 0 auto;
+    font-size: 16px;
+}
+.hide-main-col {
+    display: none !important;
+}
+.main-col, .confirm-col {
+    background: #fff;
+    position: relative;
+    display: block;
+    width: 709px;
+    margin: 30px auto 50px auto;
+    float: none;
+    padding: 38px 0px 38px 43px;
+    border: 1px solid #e4e4e4;
+}
+.main-col label {
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+}
+.main-col input, .main-col select {
+    height: 54px;
+}
+.confirm-col {
+    padding: 42px 0px 47px 41px;
+}
+.confirm-col label {
+    font-size: 16px;
+}
+.confirm-col .lbl-confirm {
+    padding-right: 0;
+}
+.form-label {
+    color: #000040;
+}
+.form-element textarea{
+    width: 400px;
+    height: 100px;
+}
+.add-listing {
+    
+}
+.postal_code-container {
+    width: auto;
+    margin-left: -15px;
+}
+.telephone-container {
+    width: auto;
+}
+#inputPostal {
+    width: 288px;   
+}
+#inputTelephone {
+    width: 303px;
+}
+.lbl-name {
+    margin-bottom: 2px;
+}
+.lbl-telephone {
+    margin-right: 30px;
+}
+.lbl-province {
+    margin-bottom: 1px;
+}
+.lbl-phone-postal {
+    margin-bottom: 1px;
+}
+.lbl-salary {
+    margin-bottom: 1px;
+}
+.lbl-star {
+    color: #fd3737;
+}
+.lbl-confirm-name {
+   
+}
+.confirm-colon {
+    width: 1px;
+    padding-left: 9px;
+    padding-right: 26px;
+}
+.confirm-spacer1 {
+    
+}
+.confirm-spacer2 {
+    
+}
+.confirm-spacer3 {
+    height: 25px;
+}
+.confirm-spacer4 {
+    
+}
+.nav-label a{
+    color: #000;
+}
+.nav-label a:active, .nav-label a:hover {
+    color: #2797de;
+    text-decoration: none;
+}
+.form-spacer1 {
+    height: 30px;
+}
+.form-spacer2 {
+    height: 34px;
+}
+.form-spacer3 {
+    height: 26px;
+    width: 320px;
+}
+.submit-container {
+    margin: 4px 0 0px 0px;
+    padding: 0;
+    width: auto;
+}
+.btn-submit {
+    padding: 18px;
+    width: 157px;
+    background: #2797de;
+}
+.confirmation {
+    font-size: 16px;
+}
+.listing-pagination {
+    position: relative;
+}
+.listing-container {
+    position: relative;
+    display: none;
+    margin: 0 auto;
+    border: 1px solid #e4e4e4;
+    float: none;
+    background: #fff;
+    margin-top: 38px;
+    margin-bottom: 13px;
+    width: 998px;
+    padding-bottom: 18px;
+}
+.show-list {
+    display: block;
+}
+.listing-info-header-background {
+    background: #535353;
+}
+.listing-info-header {
+    padding: 0 40px 0 40px;
+    background: #535353;
+    color: #fff;
+    padding: 16px !important;
+    font-size: 16px;
+}
+.listing-info{
+    font-size: 16px;
+    padding: 14px;
+    margin: 0 !important;
+}
+.listing-line {
+    border-top: 1px solid #535353;
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
+.listing-repeat:last-of-type .listing-line{
+    border-top: none;
+}
+.pagination {
+    position: relative;
+    display: block;
+    margin: 0 auto 50px auto;
+    float: none;
+    text-align: center;
+    width: 350px;
+}
+.pagination ul {
+    margin: 0;
+    padding:0;
+}
+
+.pagination ul li {
+    position: relative;
+    width: 38px;
+    display: inline-block;
+    padding:12px;
+    border: 1px solid #e4e4e4;
+    background: #fff;
+    cursor:pointer;
+    border-right: none;
+    top:0;
+}
+.pagination ul li a {
+    color: #4f4f4f;
+    text-decoration: none;
+    display: block;
+}
+.page-current {
+    background: #535353 !important;
+}
+.page-current a{
+    color: #fff !important;
+}
+.prev, .next {
+    margin: 0 !important;
+    padding: 12px !important;
+  
+    top: 0;
+    width: 44px !important;
+}
+.prev {
+    border-right: 1px solid #e4e4e4 !important;
+    background: #fff url('../images/arrow-l.png') 17px 18px  no-repeat !important;
+}
+.next {
+    border-right: 1px solid #e4e4e4 !important;
+    background: #fff url('../images/arrow-r.png') 17px 18px  no-repeat !important;
+}
+.page-0 {
+    border-left: none !important;
+}
+select#inputProvinceId {
+
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('../images/arrow.png') no-repeat 93% 50% #ffffff;
+  background-size: 11px 7px;
+}
+.error-msg {
+    color: #fd3737 !important;
+}
